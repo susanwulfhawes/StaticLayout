@@ -106,21 +106,26 @@ a{
 .purple-section {
     width: auto;
     height: auto;
+    background-color: #331a5c;
     background-position: 50% 50%;
     background-size: cover;
     background-image: url("./staticLayoutAssets/gradient-violet-bg.jpg");
     background-position: 50% 50%;
+    margin: -80px 0px 60px 0px;
+    padding: 40px 0px 0px 60px;
 }
 
-kast-logo-horizontal-color-white.svg
 
 .green-section {
     width: auto;
-    height: 500px;
+    height: auto;
+    background-color: #331a5c;
     background-position: 50% 50%;
     background-size: cover;
-    background-image: url("./staticLayoutAssets/gradient-violet-bg.jpg");
+    background-image: url("https://kastapp.co/images/green-bg.jpg");
     background-position: 50% 50%;
+    margin: -80px 0px 60px 0px;
+    padding: 40px 0px 0px 60px;
 }
 
 .navbar {
@@ -181,7 +186,7 @@ html:not([data-scroll='20']) .navbar {
     float: none;
     color: #fff;
     max-width: 560px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 20px;
     line-height: 1.4;
     text-align: center;
@@ -200,4 +205,29 @@ html:not([data-scroll='20']) .navbar {
     line-height: 36px;
     font-weight: 500;
     text-align: center;
+}
+
+.openButton{
+    padding: 0px 16px;
+    background-color: #fe9000;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    min-width: 215px;
+    height: 46px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 50ms ease-out;
+}
+
+.openButton:hover{
+    min-width: 217px;
+    height: 48px;
 }
