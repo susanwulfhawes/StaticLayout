@@ -11,15 +11,8 @@ a{
 }
 
 .openKast{
-    display: inline-block;
     width: 104px;
     height: 27px;
-    margin: 26px o o 40px;
-    padding: 0px;
-    position: absolute;
-    right: 100px;
-    vertical-align: top;
-    margin-right: auto;
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
@@ -27,9 +20,31 @@ a{
     tranition all 300ms ease;
     font-size: 14px;
     line-height: 27px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 1.5px;
+    margin: 0px 0 0 40px;
+    padding: 0px;
+    vertical-align: top;
+    margin-right: auto;
+    letter-spacing: 1.5px;
+    display: inline-block; 
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.holder{
+    
+    margin: 26px 0 0 40px;
+    padding: 0px;
+    position: absolute;
+    right: 100px;
+    vertical-align: top;
+    margin-right: auto;
+    
+    letter-spacing:display: inline-block; 1.5px;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
@@ -87,20 +102,15 @@ a{
     } 
   }
 
-
-
-
 .kastImg {
     width: 201px;
     height: auto;
-    position: relative;
-    float: left;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
+    
+    transition: all 100ms ease-out;
 }
 
 .kastImg:hover {
     width: 220px;
-    margin-top: 17px;
 }
 
 .purple-section {
@@ -112,7 +122,7 @@ a{
     background-image: url("./staticLayoutAssets/gradient-violet-bg.jpg");
     background-position: 50% 50%;
     margin: -80px 0px 60px 0px;
-    padding: 40px 0px 0px 60px;
+    padding: 40px 0px 0px 0px;
 }
 
 
@@ -144,13 +154,9 @@ a{
     width: 100%;
     height: 80px;
     background-color: transparent;
-    padding: 30px 20px;
+    padding: 18px 20px;
+    width: 100%;
 }
-
-html:not([data-scroll='20']) .navbar {
-    background-color: rgba(85, 121, 119, 0.55);
-  }
-
 
 .nav-link{
     height: 44px;
@@ -245,3 +251,23 @@ html:not([data-scroll='20']) .navbar {
     font-size: 20px;
     color: #434146;
 }
+
+.menu-bar{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+}
+
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 3px 10px;
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
